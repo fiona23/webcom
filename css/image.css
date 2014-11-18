@@ -1,11 +1,29 @@
-#news1 {
-	position:absolute;
-	clip:rect(0px 380px 579px 0px)}
+#sideimg1{
+	width:380px;
+	height:579px;
+	background:url(../images/news1.png)}
 	
-#news2 {
+#sidenews1{
+	color:#fff;
+	width:380px;
+	height:90px;
+	background-color:black;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	margin:0}
+	
+#sidenews1 p{
+	margin:0 25px;
+	line-height:1.5;
+	}
+#news2{
 	position:absolute;
 	clip:rect(0px 225px 345px 0px)}
 	
 #news3 {
 	position:absolute;
 	clip:rect(0px 225px 255px 0px)}
+
+.hnews a:link,.hnews a:visited,#orange a:link,#orange a:visited{
+	color:#fff;}
+

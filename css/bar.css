@@ -5,11 +5,13 @@ ul#bar{
 	list-style-type:none;}
 #bar li{
 	width:100px;
-	word-spacing:10px;
-	line-height:4;}
+	letter-spacing:5px;
+	line-height:4;
+	color:#313131;
+	font-size:18px;
+	font-weight:bold;}
 
 #bar li a{
-	display:block;
 	text-align:center;}
 	
 #header a:link,#bar a:visited{

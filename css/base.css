@@ -1,3 +1,5 @@
+/*****基础样式********/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
 {
     border: 0 none;
@@ -22,8 +24,9 @@ body{
 	}
 #header{
 	width:300px;}
+	
 
-
+/******三栏******/
 #sidebar1{
 	width:380px;
 	margin-right:30px;
@@ -69,6 +72,7 @@ body{
 	float:left;
 	text-align:center;}
 	
+/***中间几个新闻图片****/
 #sidenews2{
 	width:225px;
 	height:345px;}
@@ -76,3 +80,14 @@ body{
 #sidenews3{
 	width:225px;
 	height:255px;}
+	
+
+#course{
+	margin:0px 25px;}
+	
+/*****color of link***/
+.hnews a:link,.hnews a:visited,.notice a:link,.notice a:visited,#chead a:link,#chead a:visited{
+	color:#fff;}
+
+	
+
