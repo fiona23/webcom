@@ -1,1 +1,11 @@
-#news-image img{width:1000px;height:300px;}
+#news1 {
+	position:absolute;
+	clip:rect(0px 380px 579px 0px)}
+	
+#news2 {
+	position:absolute;
+	clip:rect(0px 225px 345px 0px)}
+	
+#news3 {
+	position:absolute;
+	clip:rect(0px 225px 255px 0px)}
