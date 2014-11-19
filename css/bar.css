@@ -4,15 +4,12 @@ ul#bar{
 	left:100px;
 	list-style-type:none;}
 #bar li{
-	width:100px;
 	letter-spacing:5px;
 	line-height:4;
 	color:#313131;
 	font-size:18px;
 	font-weight:bold;}
 
-#bar li a{
-	text-align:center;}
 	
 #header a:link,#bar a:visited{
 	color:#313131;}

@@ -12,7 +12,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	list-style-type:none;
 }
 body{
-	background:#f0ece2 url(../images/bg.gif) no-repeat 255px 94px;}
+	background:#f0ece2 url(../images/bg.gif) no-repeat;
+	background-position:255px 94px;}
 	
 .content{
 	height:600px;
@@ -21,6 +22,12 @@ body{
 	width:1220px;
 	margin:auto;
 	height:600px;
+	}
+
+#container-bottom{
+	width:1220px;
+	margin:auto;
+	height:90px;
 	}
 #header{
 	width:300px;}
@@ -44,38 +51,92 @@ body{
 
 		
 /* footer  */
+#footer{
+	background:url(../images/footer.gif) repeat-x;
+	}
 #footer1{
 	clear:both;
 	width:100%;
 	height:53px;
-	background:url(../images/footer1.gif) repeat-x;
+	
 	font-size:12px;
 	float:left;}
 #footer1 ul{
-	height:10px;
 	position:relative;
 	left:100px;
 	float:left;}		
 #footer1 li{
-	float:left;}
+	float:left;
+	}
 	
-#footer1 a:link,#footer1 a:visited{
+#footer1-1 a:link,#footer1-1 a:visited{
 	color:#7e7e7e;
 	display:block;
 	padding:18px;
+	padding-top:4px;
+	margin-top:17px;
+	height:0px;
 	border-right:1px solid #7e7e7e;}
+	
+#footer1-1{
+	width:710px;
+	height:53px;
+	float:left;}
 
-#footer2{clear:both;
+#footer2{
+	clear:both;
 	width:100%;
 	height:34px;
-	background:url(../images/footer2.gif) repeat-x;
 	float:left;
 	text-align:center;}
 	
+	
+#footer1-2{
+	width:225px;
+	height:53px;
+	float:left;
+	margin-right:30px;
+	margin-top:15px;}
+
+#footer1-2 span{
+	margin-left:20px;
+	margin-right:2px;}
+
+#footer1-2 a:link,#footer1-2 a:visited{
+	color:#7e7e7e;}
+/***search***/
+#footer1-3{
+	width:225px;
+	height:53px;
+	float:left;
+	margin-top:10px;}	
+
+.search{
+	background:url("../images/search.gif") no-repeat;
+	height:30px;
+	margin-top:3px;}
+	
+.search input{
+	border:none;
+	background:none;
+	float:left;
+	outline:medium;}
+	
+.search-box{
+	height:25px;
+	margin-left:7px;
+	width:133px;}
+	
+.search-button{
+	width:25px;
+	height:25px;
+	cursor:pointer;
+	color:transparent;}	
 /***中间几个新闻图片****/
 #sidenews2{
 	width:225px;
-	height:345px;}
+	height:345px;
+	}
 	
 #sidenews3{
 	width:225px;
