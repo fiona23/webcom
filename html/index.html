@@ -12,38 +12,126 @@
     <link href="../css/bar.css" rel="stylesheet" type="text/css" />
 	<link href="../css/image.css" rel="stylesheet" type="text/css" />
 	<link href="../css/table.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+	<!--导航栏动态-->
+	$(function(){
+	$("#nav li").hover(function() {	
+	$(this).find(".submenu").stop().slideDown(400);
+	} , function() {
+	$(this).find(".submenu").stop().slideUp(400);
+  });
+  
+  	$(".submenu").hover(function(){
+		$(this).css("color","#da8a8e")}, function(){});
+		
+	
+	});
+	<!--新闻图片下拉-->
+	$(function(){
+		$(".con-detail").hover(function(){
+		$(this).find(".detail,p,a").stop().slideDown(500);
+		},function(){
+		$(this).find(".detail").stop().slideUp(350);
+		});
+
+		
+	});
+</script> 
+
+
 </head>
 <body>
 <div id="container">
 	<div id="header" class="content">
 		<img src="../images/logo.gif" />
-		<ul id="bar">
-			<li class="menu"><a href="#">学院概况</a></li>
-			<li class="menu"><a href="#">学院动态</a></li>
-			<li class="menu"><a href="#">师资队伍</a></li>
-			<li class="menu"><a href="#">教学培养</a></li>
-			<li class="menu"><a href="#">学术研究</a></li>
-			<li class="menu"><a href="#">联系我们</a></li>
+		<div id="nav_container">
+		<ul id="nav">
+			<li class="menu"><a href="#">学院概况</a>
+				<ul>
+				<li class="submenu"><a href="#">院长寄语</a></li>
+				<li class="submenu"><a href="#">学科介绍</a></li>
+				<li class="submenu"><a href="#">机构设置</a></li>
+				<li class="submenu last_submenu"><a href="#">学院风景</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">学院动态</a>
+				<ul>
+				<li class="submenu"><a href="#">学院新闻</a></li>
+				<li class="submenu"><a href="#">学院公告</a></li>
+				<li class="submenu last_submenu" ><a href="#">学术讲座</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">师资队伍</a>
+				<ul>
+				<li class="submenu"><a href="#">教学队伍</a></li>
+				<li class="submenu last_submenu"  ><a href="#">行政队伍</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">教学培养</a>
+				<ul>
+				<li class="submenu"><a href="#">研究机构</a></li>
+				<li class="submenu"><a href="#">合作机构</a></li>
+				<li class="submenu last_submenu" ><a href="#">科研成果</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">学术研究</a>
+				<ul>
+				<li class="submenu"><a href="#">研究机构</a></li>
+				<li class="submenu"><a href="#">合作机构</a></li>
+				<li class="submenu last_submenu" ><a href="#">科研成果</a></li>
+				</ul>
+			</li>
+			<li class="menu"><a href="#">联系我们</a>
+			<ul>
+			<li class="submenu"><a href="#">联系方式</a></li>
+			<li class="submenu last_submenu" ><a href="#">留言板</a></li>
+			</ul>
+			</li>
 		</ul>
 		</div>
-	<div id="sidebar1" class="content">
+	</div>
+	<div id="sidebar1" class="content con-detail">
 		<div id="sideimg1">
+		<img src="../images/news1.png" />
+		</div>
 		<div id="sidenews1" class="hnews">
-		<p><a href="#" >上海交通大学-国际传播会议(ICA)2014新媒体峰会在我校举办</a></P>
-		</div>	
+		<a href="#">上海交通大学-国际传播会议(ICA)2014新媒体峰会在我校举办</a>
+		</div>
+		<div id="sidenews1-detail" class="detail"><hr style="width:80%;border:solid 1px;margin:0 10%;"/>
+		<p>2014年11月9日，在2014上海交通大学大学城市科学秋季论坛上，《中国都市化进程报告2014》由教育部《中国都市化进程年度报告》课题组、上海交通大学城市科学研究院向社会发布。上海交通大学党委宣传部部长胡昊主持了发布会。教育部社会科学司成果处魏贻恒处长、上海交通大学党委副书记朱健、西咸新区空港新城管理委员会王学东主任、新华社《瞭望东方周刊》瞭望东方传媒有限公司张栋副总经理、上海斐讯数据通信技术有限公司董事长顾国平，来自上海交通大学、南京大学、复旦大学、华东师范大学、同济大学、新华社上海分社智库中心、上海数字化城市与交通研究所、上海发展战略研究所、上海市智慧城市建设促进中心
+		<a href="#" class="detail-a">查看更多</a></p>
+		</div>
 		</div>
 	
-	</div>
 	<div id="sidebar2" class="content">
+	<div id="sidebar2-1" class="con-detail">
 		<div id="sideimg2">
-		<div id="sidenews2">
-		<p>上海交通大学-国际传播会议（ICA）2014新媒体峰会在我校举办</P>
-		</div>	
+		<img src="../images/news2.png" />
 		</div>
-		<div id="sidenews3">
-			
+		<div id="sidenews2" class="hnews">
+		<a href="#">上海交大发布《中国都市化进程报告2014》</a>
+		</div>
+		<div id="sidenews2-detail" class="detail"><hr style="width:80%;border:solid 1px;margin:0 10%;"/>
+		<p>2014年11月9日，在2014上海交通大学大学城市科瞭望东方传媒有限公司张栋副总经理、上海斐讯数据通信技术有限公司董事长顾国平，慧城市建设促进中心、</p>
+		</div>
+		
+	</div>
+	<div id="sidebar2-2" class="con-detail">
+		<div id="sideimg3">
+		<img src="../images/news3.png" />
+		</div>
+		<div id="sidenews3" class="hnews">
+		<a href="#">上海交大发布《中国都市化进程报告2014》</a>
+		</div>
+		<div id="sidenews3-detail" class="detail">
+		<p>2014年11月9日，在2014上海交通大学大学城市科瞭望东方司张栋副总国</p><hr style="width:80%;border:solid 1px;margin:0 10%;"/>
 		</div>
 	</div>
+	</div>
+		
+		
+	
 	<div id="sidebar3" class="content">
 		<div class="orange">
 		<p class="chead" style="line-height:40px;">学院公告</p><hr noshade="noshade" style="border:1px solid #e28d7c;" />

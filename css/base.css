@@ -12,8 +12,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	list-style-type:none;
 }
 body{
-	background:#f0ece2 url(../images/bg.gif) no-repeat;
-	background-position:255px 94px;}
+	background:#f0ece2 url(../images/background.png) no-repeat;
+	background-position:0px 0px;}
 	
 .content{
 	height:600px;
@@ -42,6 +42,7 @@ body{
 #sidebar2{
 	width:225px;
 	margin-right:30px;
+	font-family:微软雅黑bold;
 		}
 		
 #sidebar3{
@@ -52,6 +53,7 @@ body{
 		
 /* footer  */
 #footer{
+	clear:both;
 	background:url(../images/footer.gif) repeat-x;
 	}
 #footer1{
@@ -120,7 +122,7 @@ body{
 	border:none;
 	background:none;
 	float:left;
-	outline:medium;}
+	outline:medium;}/**去除发光框***/
 	
 .search-box{
 	height:25px;

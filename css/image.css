@@ -1,7 +1,18 @@
+#sidebar2-1{
+	height:340px;
+	background:url(../images/redup.png) no-repeat}
+	
+#sidebar2-2{
+	height:250px;
+	background:url(../images/orangedown.png) no-repeat}
+	
+
 #sideimg1{
-	width:380px;
-	height:579px;
-	background:url(../images/news1.png)}
+	position:absolute;
+	left:365px;
+	top:0px;
+	width:380px;}
+	
 	
 #sidenews1{
 	color:#fff;
@@ -10,20 +21,103 @@
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
-	margin:0}
+	margin:0;}
 	
-#sidenews1 p{
-	margin:0 25px;
+#sidenews1-detail{   /***下拉动效隐藏部分***/
+	color:#fff;
+	width:380px;
+	height:400px;
+	background-color:black;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	margin:0;
+	display:none;}
+	
+#sidenews1-detail p{
+	display:none;
+	padding:25px 35px;
+	color:#fff;
+	font-size:12px;}
+#sidenews1 a{
+	display:block;
 	line-height:1.5;
+	padding:20px 35px;}
+#sidenews2 a,#sidenews3 a{
+	display:block;
+	line-height:1.5;
+	padding:16px;
 	}
-#news2{
-	position:absolute;
-	clip:rect(0px 225px 345px 0px)}
 	
-#news3 {
-	position:absolute;
-	clip:rect(0px 225px 255px 0px)}
+/*****小新闻****/
 
-.hnews a:link,.hnews a:visited,#orange a:link,#orange a:visited{
+#sideimg2{
+	position:absolute;
+	left:775px;
+	top:0px;
+	width:225px;}
+
+#sidenews2{
+	color:#fff;
+	width:225px;
+	height:90px;
+	background-color:black;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	margin:0;}
+	
+#sidenews2-detail{   /***下拉动效隐藏部分***/
+	color:#fff;
+	width:225px;
+	height:200px;
+	background-color:black;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	margin:0;
+	display:none;}
+	
+#sidenews2-detail p{
+	display:none;
+	padding:16px 20px;
+	color:#fff;}
+	
+#sideimg3{
+	position:absolute;
+	left:775px;
+	top:349px;
+	width:225px;}
+
+#sidenews3{
+	color:#fff;
+	width:225px;
+	height:90px;
+	background-color:black;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	margin:0;
+	position:relative;
+	top:170px;}
+	
+#sidenews3-detail{   /***下拉动效隐藏部分***/
+	position:absolute;
+	bottom:97px;
+	color:#fff;
+	width:225px;
+	height:100px;
+	background-color:black;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	margin:0;
+	display:none;}
+	
+#sidenews3-detail p{
+	display:none;
+	padding:16px 20px;
 	color:#fff;}
 
+.detail-a{
+	display:block;
+	color:#fff;
+	border:1px solid #fff;
+	margin:8% 30%;
+	padding:5px;
+	text-align:center;}
