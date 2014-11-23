@@ -7,19 +7,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="icon.jpg" rel="shortcut icon" />
     <link href="../css/base.css" rel="stylesheet" type="text/css" />
-    <link href="../css/font.css" rel="stylesheet" type="text/css" />
-    <link href="../css/content.css" rel="stylesheet" type="text/css" />
-    <link href="../css/bar.css" rel="stylesheet" type="text/css" />
+	<link href="../css/content.css" rel="stylesheet" type="text/css">
 	<link href="../css/image.css" rel="stylesheet" type="text/css" />
-	<link href="../css/table.css" rel="stylesheet" type="text/css" />
+	<link href="../css/bar.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="../jquery-1.11.1.min.js"></script>
 	<script type="text/javascript">
 	<!--导航栏动态-->
 	$(function(){
 	$("#nav li").hover(function() {	
-	$(this).find(".submenu").stop().slideDown(400);
+	$(this).find(".menu-sub").stop().slideDown(400);
 	} , function() {
-	$(this).find(".submenu").stop().slideUp(400);
+	$(this).find(".menu-sub").stop().slideUp(400);
   });
   
   	$(".submenu").hover(function(){
@@ -48,7 +46,7 @@
 		<div id="nav_container">
 		<ul id="nav">
 			<li class="menu"><a href="#">学院概况</a>
-				<ul>
+				<ul class="menu-sub">
 				<li class="submenu"><a href="#">院长寄语</a></li>
 				<li class="submenu"><a href="#">学科介绍</a></li>
 				<li class="submenu"><a href="#">机构设置</a></li>
@@ -56,34 +54,34 @@
 				</ul>
 			</li>
 			<li class="menu"><a href="#">学院动态</a>
-				<ul>
+				<ul class="menu-sub">
 				<li class="submenu"><a href="#">学院新闻</a></li>
 				<li class="submenu"><a href="#">学院公告</a></li>
 				<li class="submenu last_submenu" ><a href="#">学术讲座</a></li>
 				</ul>
 			</li>
 			<li class="menu"><a href="#">师资队伍</a>
-				<ul>
+				<ul class="menu-sub">
 				<li class="submenu"><a href="#">教学队伍</a></li>
 				<li class="submenu last_submenu"  ><a href="#">行政队伍</a></li>
 				</ul>
 			</li>
 			<li class="menu"><a href="#">教学培养</a>
-				<ul>
+				<ul class="menu-sub">
 				<li class="submenu"><a href="#">研究机构</a></li>
 				<li class="submenu"><a href="#">合作机构</a></li>
 				<li class="submenu last_submenu" ><a href="#">科研成果</a></li>
 				</ul>
 			</li>
 			<li class="menu"><a href="#">学术研究</a>
-				<ul>
+				<ul class="menu-sub">
 				<li class="submenu"><a href="#">研究机构</a></li>
 				<li class="submenu"><a href="#">合作机构</a></li>
 				<li class="submenu last_submenu" ><a href="#">科研成果</a></li>
 				</ul>
 			</li>
 			<li class="menu"><a href="#">联系我们</a>
-			<ul>
+			<ul class="menu-sub">
 			<li class="submenu"><a href="#">联系方式</a></li>
 			<li class="submenu last_submenu" ><a href="#">留言板</a></li>
 			</ul>
@@ -93,7 +91,7 @@
 	</div>
 	<div id="sidebar1" class="content con-detail">
 		<div id="sideimg1">
-		<img src="../images/news1.png" />
+		<img src="../images/news1.png"/>
 		</div>
 		<div id="sidenews1" class="hnews">
 		<a href="#">上海交通大学-国际传播会议(ICA)2014新媒体峰会在我校举办</a>
@@ -125,7 +123,7 @@
 		<a href="#">上海交大发布《中国都市化进程报告2014》</a>
 		</div>
 		<div id="sidenews3-detail" class="detail">
-		<p>2014年11月9日，在2014上海交通大学大学城市科瞭望东方司张栋副总国</p><hr style="width:80%;border:solid 1px;margin:0 10%;"/>
+		<p>2014年11月9日市科瞭望东方司张栋副总国</p><hr style="width:80%;border:solid 1px;margin:0 10%;"/>
 		</div>
 	</div>
 	</div>

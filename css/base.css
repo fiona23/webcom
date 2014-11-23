@@ -37,17 +37,20 @@ body{
 #sidebar1{
 	width:380px;
 	margin-right:30px;
+	position:relative;
 		}
 
 #sidebar2{
 	width:225px;
 	margin-right:30px;
 	font-family:微软雅黑bold;
+	position:relative;
 		}
 		
 #sidebar3{
 	width:225px;
 	margin-right:30px;
+	position:relative;
 		}
 
 		

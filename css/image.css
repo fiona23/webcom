@@ -1,15 +1,16 @@
-#sidebar2-1{
+   #sidebar2-1{
 	height:340px;
 	background:url(../images/redup.png) no-repeat}
 	
 #sidebar2-2{
 	height:250px;
-	background:url(../images/orangedown.png) no-repeat}
+	background:url(../images/orangedown.png) no-repeat;
+}
 	
 
 #sideimg1{
-	position:absolute;
-	left:365px;
+	position:absolute	;
+	left:0;
 	top:0px;
 	width:380px;}
 	
@@ -52,7 +53,7 @@
 
 #sideimg2{
 	position:absolute;
-	left:775px;
+	left:0;
 	top:0px;
 	width:225px;}
 
@@ -82,7 +83,7 @@
 	
 #sideimg3{
 	position:absolute;
-	left:775px;
+	left:0;
 	top:349px;
 	width:225px;}
 
@@ -98,16 +99,16 @@
 	top:170px;}
 	
 #sidenews3-detail{   /***下拉动效隐藏部分***/
-	position:absolute;
-	bottom:97px;
 	color:#fff;
 	width:225px;
-	height:100px;
+	height:80px;
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
 	margin:0;
-	display:none;}
+	display:none;
+	position:absolute;
+	bottom:90px;}
 	
 #sidenews3-detail p{
 	display:none;
