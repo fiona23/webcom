@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../css/teacherZlq.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="../jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+	$("#nav li").hover(function() {	
+	$(this).find(".fuck").stop().slideDown(500);
+	} , function() {
+	$(this).find(".fuck").stop().slideUp(500);
+  });
+  	$(".submenu").hover(function(){
+		$(this).css("color","#da8a8e")}, function(){});
+	});
+	$(function(){
+		var total_height = $("#nav").css("height");
+		total_height = Number(total_height.slice(0,total_height.length-2));
+		var new_height = total_height;
+		var std_height = $("#nav>li").css("line-height");
+		std_height = Number(std_height.slice(0,std_height.length-2));
+		var submenu_height = $(".submenu").css("line-height");
+		submenu_height = Number(submenu_height.slice(0,submenu_height.length-2));
+		var border_width = $("#nav .submenu").css("border-top-width");
+		border_width = Number(border_width.slice(0,border_width.length-2));
+		$("#nav>li").hover(function(){
+							new_height = total_height;
+							$(this).find("li").each(function(){
+								new_height = new_height - ( submenu_height + border_width );
+							});
+							new_height = new_height - border_width;
+							new_height = new_height - std_height;
+							new_height = new_height /5;
+							$(this).siblings().each(function(){
+								$(this).stop().animate({"line-height":new_height+"px"},500);});}, 
+								function(){
+								$("#nav>li:not(this)").each(function(){
+								$(this).stop().animate({"line-height":std_height+"px"},500);});});
+		}
+		
+	);
+</script> 
+<title>教学队伍/张立群</title>
+</head>
+
+<body>
+<div id="nav_container">
+<img src="../images/logo.gif" />
+    <ul id="nav">
+    <li ><a href="#">学院概况</a>
+    <ul class="fuck">
+    <li class="submenu"><a href="#">院长寄语</a></li>
+    <li class="submenu"><a href="#">学科介绍</a></li>
+    <li class="submenu"><a href="#">机构设置</a></li>
+    <li class="submenu last_submenu"><a href="#">学院风景</a></li>
+    </ul>
+    </li>
+   
+	<li ><a href="#">学院动态</a>
+    <ul class="fuck">
+    <li class="submenu"><a href="#">学院新闻</a></li>
+    <li class="submenu"><a href="#">学院公告</a></li>
+    <li class="submenu last_submenu" ><a href="#">学术讲座</a></li>
+    </ul></li>
+    
+	<li><a href="#">师资力量</a>
+    <ul class="fuck">
+    <li class="submenu"><a href="#">教学队伍</a></li>
+    <li class="submenu last_submenu"  ><a href="#">行政队伍</a></li>
+    </ul></li>
+    
+	<li ><a href="#">教学培养</a>
+    <ul class="fuck">
+    <li class="submenu"><a href="#">研究机构</a></li>
+    <li class="submenu"><a href="#">合作机构</a></li>
+    <li class="submenu last_submenu" ><a href="#">科研成果</a></li>
+    </ul></li>
+    
+	<li ><a href="#">学术研究</a>
+    <ul class="fuck">
+    <li class="submenu"><a href="#">研究机构</a></li>
+    <li class="submenu"><a href="#">合作机构</a></li>
+    <li class="submenu last_submenu" ><a href="#">科研成果</a></li>
+    </ul></li>
+    
+<li><a href="#">联系我们</a>
+    <ul class="fuck">
+    <li class="submenu"><a href="#">联系方式</a></li>
+    <li class="submenu last_submenu" ><a href="#">留言板</a></li>
+    </ul></li>
+  </ul>
+  </div>
+<div id="main">
+  <p id="title"><span id="title1">教学队伍</span>  <span id="title2">/张立群 </span> </p>
+  <div id="blank" ></div>
+  <div id="teacher-intro">
+	<img src="../images/zlq.jpg" />
+	<div id="teacher-intro-font">
+	<h2>张立群</h2>
+	<p>设计系副教授<br />
+	硕士生导师<br />
+	设计管理研究所所长</p><div id="blank"></div>
+	<h3>联系方式</h3>
+	<p>zhangliqun@163.com</p><div id="blank"></div>
+	<h3>在院办公</h3>
+	<p>周三15:30-17:30<br />
+	媒设学院A305</p>
+	</div>
+	</div>
+  <div id="teacher-ach">
+	<h4>个人简介</h4>
+	<p>1969年生于湖北。毕业于上海交通大学工业设计系，获设计艺术学硕士学位。后赴英国萨尔福德大学艺术与设计学院从事设计管理领域的研修与合作。上海工业设计协会理事，上海市现代设计法研究会理事，上海设计中心副秘书长。</P>
+	<p>研究方向<p>
+	<p>产品设计与策略，设计管理</P><br />
+	<h4>代表成果</h4>
+	<pre><p>2007年《设计管理论文集》 上海交通大学出版社
+2007年《最适合中国人生活的、未来的汽车造型设计》（NISSAN Design Forum）
+主持“AsiaLink-International design management network（欧盟支助）”
+主持“PMI2: UK- China Collaborative Partnerships in Employability & Entrepreneurship（AHRC UK-
+英国艺术与人文科学研究委员会支助）”
+主持“2010年NISSAN全线品牌概念设计（日产设计中心支助）”
+国家863项目“磁悬浮巡检车开发”子项目负责人
+多项实用新型专利
+</p></pre>
+	<h4>获奖荣誉</h4>
+	<pre><p>第11届日本大阪国际设计竞赛入围奖
+上海市教学成果二等奖
+上海交通大学教学成果二等奖
+上海交通大学优秀教师奖</p></pre>
+	</div>
+ </div>
+
+
+<div id="right_side"><img src="images/intro_03.png" width="58" height="162" alt=""/></div>
+<div id="footer">
+	<div id="container-bottom">
+		<div id="footer1">
+			<div id="footer1-1">
+				<ul><li class="menu"><a href="#">申请本科</a></li>
+					<li class="menu"><a href="#">申请研究生</a></li>
+					<li class="menu"><a href="#">媒体关注</a></li>
+					<li class="menu"><a href="#" style="border-right:1px solid #212121;">建立合作</a></li>
+				</ul>
+			</div>
+			<div id="footer1-2">
+				<span><a href="#">快速链接</a></span><img src="images/link.gif" />
+				<span><a href="#">关注我们</a></span><img src="images/weibo.gif" />
+			</div>
+			<div id="footer1-3">
+				<form class="search">
+				<input class="search-box" type="text" />
+				<input class="search-button" type="submit" />
+				</form>
+			</div>
+		</div>
+		
+		<div id="footer2">
+			<p> 2010 SMD of SJTU. All rights reserved</p>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
