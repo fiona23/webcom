@@ -3,6 +3,8 @@
 	list-style:none;
 	font-family:微软雅黑;
 	color:#464646;
+	margin:0px;
+	 padding:0px;
 }
 
 #container {
@@ -10,23 +12,25 @@
 }
 #nav_container {
 	float:left;
-	width:300px;
+	width:22.2%;
+	height:78%;
+	background-color:#f0ece2;
+	position:fixed;
+}
+
+#right-blank{
+	float:left;
+	width:22.2%;
 	height:1260px;
 	background-color:#f0ece2;
 }
-#logo {
-	background-color:#f0ece2;
-	height: 85px;
-	background-repeat:no-repeat;
-	background-image:url(images/logo.gif);
-}
+
 #main {
 	height: 1170px;
-	width: 850px;
+	width: 72.6%;
 	float:left;
-	background-color:#f9f7f3;
-	overflow:hidden;
-	padding:40px 80px 50px 60px;
+	background-color:#f9f7f3;	
+	padding:40px 0 50px 2%;
 }
 #blank {
 	height:25px;
@@ -38,27 +42,20 @@
 	
 	
 	
-#teacher-intro{
-	width:300px;
-	height:100%;
-	float:left;
-	}
-	
-#teacher-ach{
-	width:400px;
-	float:left;
-	height:100%;}
+
 	
 .five-news{
-	width:900px;
-	height:150px;}
+	width:95%;
+	height:14%;}
 .five-news img{
 	float:left;
 	margin-right:10px;
+	width:30%;
+	height:100%;
 }
 .news-intro{
 	float:left;
-	width:620px;}
+	width:62%;}
 #main h2{
 	font-size:20px;
 	font-weight:bold;
@@ -80,8 +77,8 @@
 #right_side {
 	background-color: #f0ece2;
 	height: 1260px;
-	width: 43px;
-	float:right;
+	width: 3%;
+	float:left;
 	overflow:hidden;
 }
 #footer{
@@ -99,23 +96,26 @@
 	float:left;}
 #footer1 ul{
 	position:relative;
-	left:100px;
-	float:left;}		
+	left:20%;
+	float:left;
+	width:75%;}		
 #footer1 li{
 	float:left;
+	width:25%;
 	}
 	
 #footer1-1 a:link,#footer1-1 a:visited{
 	color:#7e7e7e;
 	display:block;
-	padding:18px;
+	padding:18%;
 	padding-top:4px;
 	margin-top:17px;
 	height:0px;
 	border-right:1px solid #7e7e7e;}
 	
 #footer1-1{
-	width:710px;
+	width:40%;
+	margin:0 10% 0 0;
 	height:53px;
 	float:left;}
 
@@ -128,24 +128,26 @@
 	
 	
 #footer1-2{
-	width:225px;
+	width:15%;
 	height:53px;
 	float:left;
-	margin-right:30px;
+	margin:15px 10% 0 5%;
 	margin-top:15px;}
 
 #footer1-2 span{
-	margin-left:20px;
-	margin-right:2px;}
+	margin-left:6%;
+	margin-right:6%;}
 
 #footer1-2 a:link,#footer1-2 a:visited{
 	color:#7e7e7e;}
 /***search***/
 #footer1-3{
-	width:225px;
+	width:13%;
 	height:53px;
 	float:left;
-	margin-top:10px;}	
+	margin-top:10px;
+	background:url(../images/search.gif) no-repeat;
+	background-size:100% 60%}	
 
 .search{
 	background:url("images/search.gif") no-repeat;
@@ -161,17 +163,14 @@
 .search-box{
 	height:25px;
 	margin-left:7px;
-	width:133px;}
+	width:80%;}
 	
 .search-button{
-	width:25px;
+	width:10%;
 	height:25px;
 	cursor:pointer;
 	color:transparent;}	
-#downside {
-	height: 40px;
-	background-color: #f0ece2;
-}
+
 #nav {
 	display: block;
 	margin: 0 auto;

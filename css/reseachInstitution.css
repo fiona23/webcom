@@ -3,34 +3,33 @@
 	list-style:none;
 	font-family:微软雅黑;
 	color:#464646;
-	margin:0;
+	margin:0px;
+	 padding:0px;
 }
 
-#container {
+
+
+body{
 	
 }
 #nav_container {
 	float:left;
 	width:22.2%;
-	height:83%;
+	height:85%;
 	background:#f0ece2 url(../images/cbg1.png) no-repeat;
 	position:fixed;
 
 }
+
 #right-blank{
 	float:left;
 	width:22.2%;
-	height:800px;
+	height:600px;
 	background:#f0ece2
 }
-#logo {
-	background-color:#f0ece2;
-	height: 85px;
-	background-repeat:no-repeat;
-	background-image:url(images/logo.gif);
-}
+
 #main {
-	height:720px;
+	height:530px;
 	width: 68.6%;
 	float:left;	
 	padding:20px 3% 50px 3%;
@@ -43,48 +42,41 @@
 	border-bottom-width:2px;
 	border-bottom-color:#f0ece2;
 	}
-	
+
 	#right_side {
 	background: #f0ece2 url(../images/cbg3.png) no-repeat;
-	height:800px;
-	width:3%;
+	height: 600px;
+	width: 3%;
 	float:left;
 	overflow:hidden;
 }
 	
+h2{
+	font-weight:normal;
+	font-size:24px;}
 	
-#teacher-intro{
-	width:22%;
-	height:100%;
-	float:left;
-	}
-#teacher-intro-font{
-	padding:0 20px;}
-	
-#teacher-ach{
-	width:70%;
-	float:left;
-	height:100%;}
-	
+
 #main h3{
 	font-size:14px;
 	font-weight:bold;
-	margin:0;
+	margin:5px 0 5px 0;
+	background:url(../images/achHead.png) no-repeat;
+	padding-left:13px;
 	}
-#main h2{
-	font-size:24px;
-	margin:10px 0 10px 0;
-	letter-spacing:5px;}
 #main p{
 	font-size:14px;
-	margin:0;
-	line-height:24px;}
-#teacher-ach h4{
-	background:url(../images/achHead.png) no-repeat;
-	padding-left:15px;
-	margin:15px 0 15px 0;
-}
-	
+	white-space:pre-wrap;
+	padding:5px 0 20px 0;
+	line-height:40px;}
+
+
+
+#main1,#main2,#main3{
+	float:left;
+	width:33%;
+	max-height:520px;
+	overflow:hidden;}	
+
 #footer{
 	background-image:url(../images/footer.gif););
 	clear:both;
@@ -174,10 +166,7 @@
 	height:25px;
 	cursor:pointer;
 	color:transparent;}	
-#downside {
-	height: 40px;
-	background-color: #f0ece2;
-}
+
 #nav {
 	display: block;
 	margin: 0 auto;
@@ -223,6 +212,7 @@ ul#nav li a {
 	}
 p#title {
 	line-height:30px;
+	font-weight:bolder;
 	}
 p#title span#title1{
 	font-size:30px;

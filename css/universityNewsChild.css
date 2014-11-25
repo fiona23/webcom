@@ -3,7 +3,8 @@
 	list-style:none;
 	font-family:微软雅黑;
 	color:#464646;
-	margin:0;
+	margin:0px;
+	 padding:0px;
 }
 
 #container {
@@ -12,29 +13,24 @@
 #nav_container {
 	float:left;
 	width:22.2%;
-	height:83%;
-	background:#f0ece2 url(../images/cbg1.png) no-repeat;
+	height:78%;
+	background-color:#f0ece2;
 	position:fixed;
-
 }
+
 #right-blank{
 	float:left;
 	width:22.2%;
-	height:800px;
-	background:#f0ece2
-}
-#logo {
+	height:1600px;
 	background-color:#f0ece2;
-	height: 85px;
-	background-repeat:no-repeat;
-	background-image:url(images/logo.gif);
 }
+
 #main {
-	height:720px;
+	height: 1500px;
 	width: 68.6%;
-	float:left;	
-	padding:20px 3% 50px 3%;
-	background:#f9f7f3 ;	
+	float:left;
+	background-color:#f9f7f3;	
+	padding:40px 3% 50px 3%;
 }
 #blank {
 	height:25px;
@@ -43,48 +39,59 @@
 	border-bottom-width:2px;
 	border-bottom-color:#f0ece2;
 	}
-	
+
 	#right_side {
-	background: #f0ece2 url(../images/cbg3.png) no-repeat;
-	height:800px;
-	width:3%;
+	background-color: #f0ece2;
+	height: 1600px;
+	width: 3%;
 	float:left;
 	overflow:hidden;
 }
 	
+h2{
+	font-weight:normal;
+	font-size:24px;}
 	
-#teacher-intro{
-	width:22%;
-	height:100%;
-	float:left;
-	}
-#teacher-intro-font{
-	padding:0 20px;}
-	
-#teacher-ach{
-	width:70%;
-	float:left;
-	height:100%;}
-	
-#main h3{
-	font-size:14px;
+
+#main h1{
+	font-size:20px;
 	font-weight:bold;
-	margin:0;
+	margin:5px 0 10px 0;
 	}
-#main h2{
-	font-size:24px;
-	margin:10px 0 10px 0;
-	letter-spacing:5px;}
 #main p{
 	font-size:14px;
-	margin:0;
-	line-height:24px;}
-#teacher-ach h4{
-	background:url(../images/achHead.png) no-repeat;
-	padding-left:15px;
-	margin:15px 0 15px 0;
-}
+	white-space:pre-wrap;
+	padding:5px 0 20px 0;}
+
+#newsImg0{
+	float:right;
+	width:45%;
+	margin:10px 0 10px 10px;}
+.tag{
+	vertical-align:top;
+	margin:0 6px;
+	padding:1px 4px;
+	color:#fff;
+	background-color:#bd2943}
+.share{
+	float:right;
+	margin-left:20px;}
+
+.btmImg{
+	width:50%;
+	float:left;
+	}
 	
+.btmImg p{
+	text-align:center;
+	max-height:16px;}
+	
+.btmImg img{
+	padding-left:10px;
+	width:95%;
+	}
+	
+
 #footer{
 	background-image:url(../images/footer.gif););
 	clear:both;
@@ -174,10 +181,7 @@
 	height:25px;
 	cursor:pointer;
 	color:transparent;}	
-#downside {
-	height: 40px;
-	background-color: #f0ece2;
-}
+
 #nav {
 	display: block;
 	margin: 0 auto;
@@ -216,6 +220,7 @@ ul#nav li {
 	letter-spacing:5px;
 	line-height:72px;
 	font-size:18px;
+	font-weight:bold; 	
 	text-align:center;
 }
 ul#nav li a {
@@ -223,6 +228,7 @@ ul#nav li a {
 	}
 p#title {
 	line-height:30px;
+	font-weight:bolder;
 	}
 p#title span#title1{
 	font-size:30px;

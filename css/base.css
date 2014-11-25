@@ -57,9 +57,14 @@ body{
 /* footer  */
 #footer{
 	clear:both;
-	background:url(../images/footer.gif) repeat-x;
-	width:1360px;
+	background:url(../images/footer.gif) repeat-x bottom;
+	margin:0 auto;
+	
 	}
+	
+#container-bottom{
+	background:url(../images/footer.gif) repeat-x bottom;
+	margin:0 auto;}
 #footer1{
 	clear:both;
 	width:100%;
