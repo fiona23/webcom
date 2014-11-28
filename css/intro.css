@@ -1,0 +1,101 @@
+#pageMain {
+	min-height:1160px;}
+
+#intro {
+	height:80px;
+	line-height:80px;
+}
+h6 {
+	height:50px;
+}
+div {
+	font-size:14px;
+}
+#idea {
+	clear:both;
+}
+#idea ul {
+	list-style:none;
+	text-align:left;
+	padding-left:0px;
+}
+#subject {
+}
+#subject_detail {
+	margin-left: 40px;
+	width:560px;
+	float:left;
+	border-bottom-color:#bd2943;
+	border-top-color:#bd2943;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	height:180px;
+	overflow:hidden;
+}
+#subject_image {
+	display:block;
+	float:left;
+}
+h2 {
+	clear:both;
+	font-weight:normal;
+}
+#undergraduate {
+	width:135px;
+	float:left;
+}
+#ug_title {
+	width:115px;
+    height:30px;
+	border-bottom-color:#bd2943;
+	border-bottom-style:solid;
+	line-height:30px;;
+	}
+#ug_content, #mas1,#mas2,#doc_content {
+	height:150px;
+}
+#ug_content ul, #mas1 ul,#mas2 ul,#doc_content ul {
+	list-style:none;
+	padding:0px;
+	line-height:22px;
+	font-size:10px;
+	}
+#master {
+	width:310px;
+	float:left;
+}
+
+#mas_title{
+	height:30px;
+	border-bottom-color:#bd2943;
+	border-bottom-style:solid;
+	line-height:30px;
+	width:290px;
+	}
+#mas1 {
+	width:120px;
+	float:left;
+	}
+#mas2 {
+	width:190px;
+	float:left;
+	}
+#doctor {
+	width:105px;
+	float:left;
+}
+#doc_title {
+    height:30px;
+	border-bottom-color:#bd2943;
+	border-bottom-style:solid;
+	line-height:30px;
+	}
+	.title3{
+			margin:10px 0px;
+			clear:both;
+			background:url("../images/achHead.png") no-repeat;
+		}
+.title1 {
+	letter-spacing:9px;
+	font-size:24px;
+}

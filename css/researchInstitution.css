@@ -1,0 +1,49 @@
+h2{
+	font-weight:normal;
+	font-size:24px;}
+	
+
+#pageMain h3{
+	font-size:14px;
+	font-weight:bold;
+	margin:5px 0 5px 0;
+	background:url(../images/achHead.png) no-repeat;
+	padding-left:13px;
+	}
+#pageMain p{
+	font-size:14px;
+	white-space:pre-wrap;
+	padding:5px 0 20px 0;
+	line-height:40px;}
+
+
+
+#main1,#main2,#main3{
+	float:left;
+	width:33%;
+	max-height:520px;
+	overflow:hidden;}	
+
+	p#title {
+	line-height:30px;
+	font-weight:bolder;
+	}
+#blank {
+	height:25px;
+	margin-bottom:25px;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:#f0ece2;
+	}
+p#title {
+	line-height:30px;
+	font-weight:bolder;
+	}
+p#title span#title1{
+	font-size:30px;
+	
+}
+p#title span#title2{
+	font-size:25px;
+	color:#bd2943;
+}

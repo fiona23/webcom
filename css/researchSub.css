@@ -1,0 +1,47 @@
+	#pageMain {
+		overflow:hidden;
+		padding:40px 5.93% 50px 4.45%;
+		width:69%;
+		float:left;
+		margin-left:20%;
+		background-color:#f8f7f3;
+		min-height:1000px;
+	}
+		#blank {
+			height:25px;
+			margin-bottom:25px;
+			border-bottom-style:solid;
+			border-bottom-width:2px;
+			border-bottom-color:#f0ece2;
+			}
+		
+		.teacher {
+			width:120px;
+			height:200px;
+			float:left;
+			margin-right:60px;
+		}
+		.teacher_name {
+			text-align:center;
+			font-size:14px;
+			}
+		p#title {
+			line-height:30px;
+			}
+		p#title span#title1{
+			font-size:24px;
+			letter-spacing:9px;
+		}
+		p#title span#title2{
+			font-size:20px;
+			letter-spacing:8px;
+			color:#bd2943;
+		}
+		.title3{
+			margin:10px 0px;
+			clear:both;
+			background:url("../images/achHead.png") no-repeat;
+			font-size:14px;
+			font-weight:bold;
+		}
+

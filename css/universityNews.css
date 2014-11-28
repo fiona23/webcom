@@ -6,6 +6,21 @@
 	margin:0px;
 	 padding:0px;
 }
+body html{
+	margin:0;
+	height:100%;}
+#wrap{
+	height:100%}
+#pageMain {
+		
+		overflow:hidden;
+		padding:40px 5.93% 50px 4.45%;
+		width:69%;
+		float:left;
+		margin-left:20%;
+		background-color:#f8f7f3;
+		min-height:1000px;
+	}
 
 #container {
 	
@@ -146,8 +161,7 @@
 	height:53px;
 	float:left;
 	margin-top:10px;
-	background:url(../images/search.gif) no-repeat;
-	background-size:100% 60%}	
+	background:url(../images/search.gif) no-repeat}	
 
 .search{
 	background:url("images/search.gif") no-repeat;

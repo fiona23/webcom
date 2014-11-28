@@ -1,10 +1,10 @@
 #nav {
 	display: block;
-	margin: 0;
-	width: inherit;
-	padding-left: 85px;
-	padding-right: 85px;
+	width: 130px;
+	padding:0px;
 	list-style-type: none;
+	height:432px;
+	margin:0 auto;
 }
 ul#nav li:hover {
 	color:#C71A1D;
@@ -14,7 +14,8 @@ ul#nav  li ul li.submenu {
 	border-top-color:#d6d2c9;
 	border-top-style:solid;
 	text-align:center;
-	font-size:15px;
+	border-top-width:2px;
+	line-height:60px;
 }
 ul#nav  li ul li.submenu a:hover {
 	color:#da8a8e;
@@ -24,17 +25,17 @@ ul#nav  li ul li.last_submenu {
 	border-top-color:#d6d2c9;
 	border-top-style:solid;
 	text-align:center;
-	font-size:15px;
 	border-bottom-color:#d6d2c9;
 	border-bottom-style:solid;
+	border-bottom-width:2px;
 }
-#nav li ul {
+ul#nav li ul {
 	padding-left:0px;
 }
 ul#nav li {
     width:130px;
 	letter-spacing:5px;
-	line-height:4;
+	line-height:72px;
 	font-size:18px;
 	font-weight:bold; 	
 	text-align:center;

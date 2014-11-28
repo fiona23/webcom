@@ -1,5 +1,5 @@
-   #sidebar2-1{
-	height:340px;
+#sidebar2-1{
+	height:365px;
 	background:url(../images/redup.png) no-repeat}
 	
 #sidebar2-2{
@@ -12,33 +12,63 @@
 	position:absolute	;
 	left:0;
 	top:0px;
-	width:380px;}
+	width:410px;
+	background:transparent;}
+	
+.hnewsa{
+	display:block;
+	position:relative;
+	font-weight:bold;
+	color:#fff;}
 	
 	
 #sidenews1{
 	color:#fff;
-	width:380px;
+	width:410px;
 	height:90px;
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
 	margin:0;}
-	
+#sidenews1-detail-fa{
+	width:410px;
+	height:650px;
+	overflow:hidden;}
 #sidenews1-detail{   /***下拉动效隐藏部分***/
 	color:#fff;
-	width:380px;
-	height:400px;
+	width:510px;
+	height:524px;
+	position:relative;
+	left:-60px;
+	top:-40px;
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
 	margin:0;
-	display:none;}
+	display:none;
+
+	transform:rotate(-12deg);
+	-ms-transform: rotate(-12deg);		/* IE 9 */
+	-webkit-transform: rotate(-12deg);	/* Safari and Chrome */
+	-o-transform: rotate(-12deg);		/* Opera */
+	-moz-transform: rotate(-12deg);	
+	}
 	
 #sidenews1-detail p{
+	position:relative;
+	width:360px;
+	margin:30px 60px 0 60px;
 	display:none;
 	padding:25px 35px;
 	color:#fff;
-	font-size:12px;}
+	font-size:14px;
+	line-height:24px;
+	transform:rotate(12deg);
+	-ms-transform: rotate(12deg);		/* IE 9 */
+	-webkit-transform: rotate(12deg);	/* Safari and Chrome */
+	-o-transform: rotate(12deg);		/* Opera */
+	-moz-transform: rotate(12deg);
+	}
 #sidenews1 a{
 	display:block;
 	line-height:1.5;
@@ -55,65 +85,102 @@
 	position:absolute;
 	left:0;
 	top:0px;
-	width:225px;}
+	width:245px;
+	height:375px;}
 
 #sidenews2{
 	color:#fff;
-	width:225px;
+	width:245px;
 	height:90px;
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
 	margin:0;}
 	
+#sidenews2-detail-fa{
+	width:245px;
+	height:280px;
+	overflow:hidden;}
 #sidenews2-detail{   /***下拉动效隐藏部分***/
 	color:#fff;
-	width:225px;
-	height:200px;
+	width:445px;
+	height:277px;
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
 	margin:0;
-	display:none;}
+	display:none;
+	transform:rotate(-12deg);
+	-ms-transform: rotate(-12deg);		/* IE 9 */
+	-webkit-transform: rotate(-12deg);	/* Safari and Chrome */
+	-o-transform: rotate(-12deg);		/* Opera */
+	-moz-transform: rotate(-12deg);
+	position:relative;
+	top:-50px;
+	left:-60px;}
 	
 #sidenews2-detail p{
 	display:none;
 	padding:16px 20px;
-	color:#fff;}
+	color:#fff;
+	transform:rotate(12deg);
+	-ms-transform: rotate(12deg);		/* IE 9 */
+	-webkit-transform: rotate(12deg);	/* Safari and Chrome */
+	-o-transform: rotate(12deg);		/* Opera */
+	-moz-transform: rotate(12deg);}
 	
 #sideimg3{
 	position:absolute;
 	left:0;
-	top:349px;
+	top:375px;
 	width:225px;}
 
 #sidenews3{
 	color:#fff;
-	width:225px;
+	width:245px;
 	height:90px;
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
 	margin:0;
 	position:relative;
-	top:170px;}
+	top:190px;}
 	
 #sidenews3-detail{   /***下拉动效隐藏部分***/
 	color:#fff;
-	width:225px;
-	height:80px;
+	width:285px;
+	height:190px;
 	background-color:black;
 	filter:alpha(opacity=60);
 	opacity:0.6;
 	margin:0;
 	display:none;
 	position:absolute;
-	bottom:90px;}
+	bottom:64px;
+	right:13px;
+    transform:rotate(-12deg);
+	-ms-transform: rotate(-12deg);		/* IE 9 */
+	-webkit-transform: rotate(-12deg);	/* Safari and Chrome */
+	-o-transform: rotate(-12deg);		/* Opera */
+	-moz-transform: rotate(-12deg);
+	position:relative;}
 	
 #sidenews3-detail p{
 	display:none;
 	padding:16px 20px;
-	color:#fff;}
+	color:#fff;
+	transform:rotate(12deg);
+	-ms-transform: rotate(12deg);		/* IE 9 */
+	-webkit-transform: rotate(12deg);	/* Safari and Chrome */
+	-o-transform: rotate(12deg);		/* Opera */
+	-moz-transform: rotate(12deg);}
+	
+#sidenews3-detail-fa{
+	width:245px;
+	overflow:hidden;
+	position:relative;
+	bottom:0px;
+	height:400px;}
 
 .detail-a{
 	display:block;

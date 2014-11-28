@@ -1,0 +1,65 @@
+html, body{
+	margin:0; 
+	height:100%; }
+#pageMain {
+		
+		overflow:hidden;
+		padding:40px 5.93% 50px 4.45%;
+		width:69%;
+		float:left;
+		margin-left:20%;
+		background-color:#f8f7f3;
+		min-height:1300px;
+	}
+
+#blank {
+	height:25px;
+	margin-bottom:25px;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:#f0ece2;
+	}
+p#title {
+	line-height:30px;
+	}
+p#title span#title1{
+	font-size:30px;
+	
+}
+p#title span#title2{
+	font-size:25px;
+	color:#bd2943;
+}	
+
+	
+.screw {
+	margin:5px 0 10px 0;
+}
+	
+.five-news{
+	width:95%;
+	height:14%;}
+.five-news img{
+	float:left;
+	margin-right:10px;
+	height:90%;
+}
+.news-intro{
+	float:left;
+	width:62%;}
+#pageMain h2{
+	font-size:20px;
+	font-weight:bold;
+}
+#pageMain p{
+	font-size:14px;}
+
+/*****pagenumer****/
+#page-num {
+	float:right;}
+#page-num a:link,#page-num a:visited,#page-num a:hover{
+	color:#464645}
+#page-num  input{
+	width:20px;}
+#page-num a{
+	padding:3px 10px;}
