@@ -53,23 +53,25 @@ $(function(){
 					$("#right").css("display","none");
 					$("#pageMain").css({"width":"90%","padding":"0 0 0 0","margin-left":"0px"});
 					
-					$("#logo").remove();
-					$logo = $("<img id='logo' src='images/logo_narrow_01.png'/>");
-					$logo.css({"position":"absolute","top":"0px","left":"0px","z-index":"1","width":"100%"});
+					$("#logolink").remove();
+					$logo = $("<a href='index.html' id='logolink'><img id='logo' src='images/logo_narrow_01.png'/></a>");
 					$("body").append($logo);
+					$("#logo").css({"position":"absolute","top":"0px","left":"0px","z-index":"1","width":"100%"});
 				}
 				else {
 					$("#nav_container").css("display","block");
 					$("#line").css({"display":"block"});
-					$("#pageMain").css({"width":"79%","padding":"0 0 0 0","margin-left":"20%"});
+					$("#pageMain").css({"width":"80%","padding":"0 0 0 0","margin-left":"20%"});
 					$("#right").css("display","block");
 					var nav_left = (Number(nav_container_width.slice(0,nav_container_width.length-2))- 130)/2;
 					$("ul#nav").css("left",nav_left+"px");
 					
-					$("#logo").remove();
-					$logo = $("<img id='logo' src='images/logo_01.png'/>");
-					$logo.css({"position":"fixed","top":"0px","left":"0px","z-index":"1","width":"20%"});
+					$("#logolink").remove();
+					$logo = $("<a href='index.html' id='logolink'><img id='logo' src='images/logo_01.png'/></a>");
 					$("body").append($logo);
+					$("#logo").css({"position":"fixed","top":"0px","left":"0px","z-index":"1","width":"20%"});
+					//$logo.css({"position":"fixed","top":"0px","left":"0px","z-index":"1","width":"20%"});
+					
 					
 					$("#menu").remove();
 					
@@ -89,10 +91,10 @@ $(window).resize(function() {
 					$("#right").css("display","none");
 					$("#pageMain").css({"width":"90%","padding":"0 0 0 0","margin-left":"0px"});
 					
-					$("#logo").remove();
-					$logo = $("<img id='logo' src='images/logo_narrow_01.png'/>");
-					$logo.css({"position":"absolute","top":"0px","left":"0px","z-index":"1","width":"100%"});
+					$("#logolink").remove();
+					$logo = $("<a href='index.html' id='logolink'><img id='logo' src='images/logo_narrow_01.png'/></a>");
 					$("body").append($logo);
+					$("#logo").css({"position":"absolute","top":"0px","left":"0px","z-index":"1","width":"100%"});
 					
 					/*$menu = $("<img id='menu' src='images/menu_01.png'/>");
 					$menu.css({"position":"absolute","top":"0px","left":"0px","z-index":"2","width":"10%"});
@@ -118,15 +120,17 @@ $(window).resize(function() {
 				else {
 					$("#nav_container").css("display","block");
 					$("#line").css({"display":"block"});
-					$("#pageMain").css({"width":"79%","padding":"0 0 0 0","margin-left":"20%"});
+					$("#pageMain").css({"width":"80%","padding":"0 0 0 0","margin-left":"20%"});
 					$("#right").css("display","block");
 					var nav_left = (Number(nav_container_width.slice(0,nav_container_width.length-2))- 130)/2;
 					$("ul#nav").css("left",nav_left+"px");
 					
-					$("#logo").remove();
-					$logo = $("<img id='logo' src='images/logo_01.png'/>");
-					$logo.css({"position":"fixed","top":"0px","left":"0px","z-index":"1","width":"20%"});
+					$("#logolink").remove();
+					$logo = $("<a href='index.html' id='logolink'><img id='logo' src='images/logo_01.png'/></a>");
 					$("body").append($logo);
+					$("#logo").css({"position":"fixed","top":"0px","left":"0px","z-index":"1","width":"20%"});
+					//$logo.css({"position":"fixed","top":"0px","left":"0px","z-index":"1","width":"20%"});
+					
 					
 					$("#menu").remove();
 					

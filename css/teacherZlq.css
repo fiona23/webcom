@@ -10,10 +10,17 @@ html, body{
 	border-bottom-color:#f0ece2;
 	}
 p#title {
-	line-height:30px;
-	}
-p#title span#title1{
-	font-size:30px;
+			line-height:30px;
+			}
+		p#title span#title1{
+			font-size:24px;
+			letter-spacing:9px;
+		}
+		p#title span#title2{
+			font-size:20px;
+			letter-spacing:8px;
+			color:#bd2943;
+		}
 	
 }
 p#title span#title2{
@@ -51,3 +58,5 @@ p#title span#title2{
 	padding-left:15px;
 	margin:15px 0 15px 0;
 }
+#pageMain{
+	min-height:760px;}

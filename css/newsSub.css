@@ -1,8 +1,7 @@
 #pageMain {
 	min-height:1600px;
 	width: 68.6%;
-	float:left;
-	background-color:#f9f7f3;	
+	float:left;	
 	padding:40px 3% 50px 3%;
 }
 #blank {
@@ -20,7 +19,8 @@ h2{
 #pageMain h1{
 	font-size:20px;
 	font-weight:bold;
-	margin:5px 0 10px 0;
+	padding:5px 0 22px 0;
+	line-height:34px;
 	}
 #pageMain p{
 	font-size:14px;
@@ -33,11 +33,13 @@ h2{
 	max-width:45%;
 	margin:10px 0 10px 10px;}
 .tag{
+	font-size:13px;
 	vertical-align:top;
 	margin:0 6px;
-	padding:1px 4px;
+	padding:2px 5px;
 	color:#fff;
-	background-color:#bd2943}
+	background-color:#bd2943;
+	line-height:18px;}
 .share{
 	float:right;
 	margin-left:20px;}

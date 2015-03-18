@@ -117,8 +117,7 @@ html, body{
 				background-image:url(../images/footer.gif);
 				clear:both;
 				position:relative;
-				margin-top:-90px;
-				height:90px;
+				height:85px;
 				}
 			#container-bottom{
 				height:88px;
@@ -147,29 +146,39 @@ html, body{
 				border-right:1px solid #7e7e7e;}
 				
 			#footer1-1{
-				padding-left:10%;
+				padding-left:5%;
+				padding-right:5%;
 				width:40%;
 				height:53px;
 				float:left;}
 
 			#footer2{
+				
 				background-color:#191919;
 				clear:both;
 				width:100%;
 				height:28px;
 				float:left;
 				text-align:center;}
-				
+			#footer2 p{
+				font-size:12px;
+			}
 				
 			#footer1-2{
-				width:25%;
+				width:24%;
 				height:53px;
 				float:left;
-				margin-top:15px;}
+				margin:20px 0 0 3%;}
 			#footer1-2-1,#footer1-2-2{
 				float:left;
 				margin-left:6%;
 				margin-right:6%;
+				height:20px;
+				line-height:20px;
+			}
+			#footer1-2-1  a,#footer1-2-2 a{
+				height:20px;
+				line-height:20px;
 			}
 			
 			#footer1-2 span{
@@ -182,8 +191,7 @@ html, body{
 				width:23%;
 				height:53px;
 				float:left;
-				margin-top:10px;
-				margin-left:10px;
+				margin-top:15px;
 				position:relative;
 			}	
 			
@@ -207,15 +215,23 @@ html, body{
 			.search-box{
 				height:25px;
 				margin-left:7px;
-				width:80%;}
+				width:120px;}
 				
 			.search-button{
 				width:10%;
 				height:25px;
 				cursor:pointer;
 				color:transparent;}	
+			#eng a{
+				position:relative;
+				left:20px;
+				top:6px;
+				color:#7e7e7e;
+			}
 				
-				
+	.f{
+		font-size:12px;
+	}
 	#pageMain {
 		
 		overflow:hidden;
